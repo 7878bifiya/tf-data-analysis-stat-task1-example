@@ -3,10 +3,8 @@ import numpy as np
 from scipy import stats
 from scipy.optimize import minimize_scalar
 
-
 chat_id = 541133397 # Ваш chat ID, не меняйте название переменной
 
-def solution(x: np.array) -> float:
 def solution(x: np.array) -> float:
     mean = np.mean(checks)
     ratio = mean / 371
